@@ -1,2 +1,12 @@
-package PACKAGE_NAME;public class Player {
+public class Player {
+
+    private final String name;
+
+    public Player(String name){
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
